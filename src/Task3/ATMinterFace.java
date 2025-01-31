@@ -8,7 +8,6 @@ public class ATMinterFace {
 	       System.out.println("Please Insert your card");
 	       System.out.println("Enter your 4-digit PIN:");
 	       pin= scanner.nextInt();
-
-
+	       
 	    }
 }
