@@ -141,7 +141,7 @@ public class ATM {
       System.out.println("Enter number of Option:");
       int option = scanner.nextInt();
       int init = 1;
-      do {
+//      do {
           switch (option){
               case 1:
                   bankAcc.amaunt = WithdrawCash(CurrentAmount);
@@ -163,8 +163,8 @@ public class ATM {
                   System.out.println("Invalid input option ");
 
           }
-          init ++;
-      }while (init !=  0);
+        
+//      }while (init !=  0);
 
       }
 
