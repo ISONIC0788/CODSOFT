@@ -1,8 +1,7 @@
 package Task3;
 
 public class BankAccount {
-	public static AccountDatail() {
-		int amount = 200;
-		System.out.println("The amount is $ "+amount);
-	}
+        int amaunt = 300;
+        String userName  = "Edison";
+        String  AccountNumber = "ACC07194590";
 }
