@@ -54,11 +54,6 @@ public class ATM {
       }
 
 
-
-//      System.out.println("Enter the amount To withdraw: ");
-//      Scanner scanner = new Scanner(System.in);
-//      int amount = scanner.nextInt();
-//      withdraw(amount);
   }
 
   private  void  withdraw(int amount){
