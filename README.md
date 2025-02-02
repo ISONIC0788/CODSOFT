@@ -31,8 +31,9 @@ Display Results: Show the total marks, average percentage, and the corresponding
 <div>
     <pre><code id="code-snippet">git clone https://github.com/ISONIC0788/CODSOFT.git</code></pre>
     <button onclick="copyToClipboard()">Copy</button>
+</div>
 
-
+<!-- 
 <script>
 function copyToClipboard() {
     var copyText = document.getElementById("code-snippet").textContent;
@@ -43,5 +44,6 @@ function copyToClipboard() {
     });
 }
 </script>
-</div>
+-->
+
 
