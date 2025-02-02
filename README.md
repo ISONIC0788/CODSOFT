@@ -33,8 +33,7 @@ Display Results: Show the total marks, average percentage, and the corresponding
     <button onclick="copyToClipboard()"></button>
 </div>
 <div>
-    <pre><code id="code-snippet">Run in Eclipse IDE </pre>
-    
+   <pre><code id="code-snippet">Run in Eclipse IDE </pre>
 </div>
 <!-- 
 <script>
