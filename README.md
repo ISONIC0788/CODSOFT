@@ -30,7 +30,7 @@ Display Results: Show the total marks, average percentage, and the corresponding
 ## installation 
 <div>
     <pre><code id="code-snippet">git clone https://github.com/ISONIC0788/CODSOFT.git</code></pre>
-    <button onclick="copyToClipboard()">Copy</button>
+    <button onclick="copyToClipboard()"></button>
 </div>
 
 <!-- 
