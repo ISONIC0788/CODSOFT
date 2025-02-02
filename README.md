@@ -27,3 +27,20 @@ average percentage.
 Grade Calculation: Assign grades based on the average percentage achieved.
 Display Results: Show the total marks, average percentage, and the corresponding grade to the user
 [GitHub]( https://github.com/ISONIC0788/CODSOFT.git )
+## installation 
+<div>
+    <pre><code id="code-snippet">git clone [https://github.com/ISONIC0788/CODSOFT.git]</code></pre>
+    <button onclick="copyToClipboard()">Copy</button>
+</div>
+
+<script>
+function copyToClipboard() {
+    var copyText = document.getElementById("code-snippet").textContent;
+    navigator.clipboard.writeText(copyText).then(function() {
+        alert('Copied to clipboard');
+    }, function(err) {
+        alert('Failed to copy text: ', err);
+    });
+}
+</script>
+
