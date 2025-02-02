@@ -35,12 +35,3 @@ Display Results: Show the total marks, average percentage, and the corresponding
 <div>
    <pre><code id="code-snippet">Run in Eclipse IDE </pre>
 </div>
-# CodSoft
-CodSoft Java-Developer Internship
-
-![Eclipse IDE](https://github.com/ISONIC0788/CODSOFT/blob/master/path/to/your/image.png)
-
-...      
-
-
-
