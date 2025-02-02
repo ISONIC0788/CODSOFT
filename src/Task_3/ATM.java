@@ -115,30 +115,39 @@ public class ATM {
 
     //
     public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount(1000);
-        ATM atm = new ATM(bankAccount);
-        atm.MainMenu();
-        System.out.println("Welecom to Bank [bank name] ATM");
-        System.out.println("Please Enter your Choice");
-        int choiceOpt ;
-        Scanner scanner = new Scanner(System.in);
-        choiceOpt = scanner.nextInt();
-        switch (choiceOpt){
-            case 1:
-                atm.withdraw();
-            break;
-            case 2:
-                atm.deposit();
-            break;
-            case 3:
-                atm.checkBalance();
-            break;
-            case 4:
-            break;
-            default:
-                System.out.println("Invalid number in option ");
-        }
-
+    	try {
+    		
+    		BankAccount bankAccount = new BankAccount(1000);
+            ATM atm = new ATM(bankAccount);
+            atm.MainMenu();
+            System.out.println("Welecom to Bank [bank name] ATM");
+            System.out.println("Please Enter your Choice");
+            int choiceOpt ;
+            Scanner scanner = new Scanner(System.in);
+            choiceOpt = scanner.nextInt();
+            do {
+            switch (choiceOpt){
+                case 1:
+                    atm.withdraw();
+                break;
+                case 2:
+                    atm.deposit();
+                break;
+                case 3:
+                    atm.checkBalance();
+                break;
+                case 4:
+                	System.exit(0);
+                break;
+                default:
+                    System.out.println("Invalid number in option ");
+            }
+            }while(choiceOpt!=4);
+    		
+    	}catch( Exception e) {
+        
+          System.out.println("Invalid input try other chance ");
+      }
     }
 }
 
