@@ -26,10 +26,10 @@ Calculate Average Percentage: Divide the total marks by the total number of subj
 average percentage.
 Grade Calculation: Assign grades based on the average percentage achieved.
 Display Results: Show the total marks, average percentage, and the corresponding grade to the user
-[GitHub]( https://github.com/ISONIC0788/CODSOFT.git )
+[GitHub](https://github.com/ISONIC0788/CODSOFT.git )
 ## installation 
 <div>
-    <pre><code id="code-snippet">git clone [https://github.com/ISONIC0788/CODSOFT.git]</code></pre>
+    <pre><code id="code-snippet">git clone https://github.com/ISONIC0788/CODSOFT.git</code></pre>
     <button onclick="copyToClipboard()">Copy</button>
 </div>
 
