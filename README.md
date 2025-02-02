@@ -32,7 +32,9 @@ Display Results: Show the total marks, average percentage, and the corresponding
     <pre><code id="code-snippet">git clone https://github.com/ISONIC0788/CODSOFT.git</code></pre>
     <button onclick="copyToClipboard()"></button>
 </div>
-
+<div>
+   Run vscode 
+</div>
 <!-- 
 <script>
 function copyToClipboard() {
